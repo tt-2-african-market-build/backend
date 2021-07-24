@@ -44,7 +44,7 @@ heroku run --app <app_name>
     http://localhost:5500/api/auth/login
 
 
-### Endpoints (heroku):
+### Current Group Endpoints (heroku):
     Users
     [POST] https://sauti-market-bw.herokuapp.com/api/auth/register
         returns user object
@@ -67,6 +67,31 @@ heroku run --app <app_name>
 
     [DELETE]DELETE ITEM: https://sauti-market-bw.herokuapp.com/api/items/:id
         returns delete message
+
+### TT-2 Group Endpoints (heroku):
+    Users
+    [POST] https://tt-2-sauti-market-bw.herokuapp.com/api/auth/register
+        returns user object
+
+    [POST] https://tt-2-sauti-market-bw.herokuapp.com/api/auth/login
+        returns token, user object
+
+    Items
+    [GET]   ALL ITEMS: https://tt-2-sauti-market-bw.herokuapp.com/api/items
+        returns array of all item objects
+
+    [GET]   ITEMS BY ID: https://tt-2-sauti-market-bw.herokuapp.com/api/items/:id
+        returns item object with matching id
+
+    [POST]  ITEM NEW ITEM: https://tt-2-sauti-market-bw.herokuapp.com/api/items
+        returns item object
+
+    [PUT]   UPDATE ITEM: https://tt-2-sauti-market-bw.herokuapp.com/api/items/:id
+        returns item object
+
+    [DELETE]DELETE ITEM: https://tt-2-sauti-market-bw.herokuapp.com/api/items/:id
+        returns delete message
+
 
 MY-LIST Endpoints
 

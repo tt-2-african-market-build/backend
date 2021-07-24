@@ -15,6 +15,7 @@
     "test": "cross-env NODE_ENV=testing jest --watchAll --verbose --runInBand --silent",
     "deploy": "git push heroku main"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tt-2-african-market-build/backend.git"
